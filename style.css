@@ -1,11 +1,14 @@
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family:monospace;
     color:rgb(169, 29, 106);
     margin: 20px;
     background-image: url(greybg.png);
     text-align: center;
     cursor: url("cursor.png"), default;
+    line-height: 250%;
+    font-size: large;
 }
+
 
 h1 {
     background-color: thistle;
@@ -20,13 +23,87 @@ h2 {
 .Blood {
     border-style: solid;
     border-width: 3px;
-    border-color: darkorchid;
+    border-color: plum;
+}
+
+.Blood:hover {
+    width: 450px;
+    height: 400px;
 }
 
 .Hereditary {
     border-style: solid;
     border-width: 3px;
-    border-color: darkorchid;
-    width: 200px;
-    height: 200px;
+    border-color: plum;
+    width: 350px;
+    height: 300px;
 }
+
+.Hereditary:hover {
+    width: 450px;
+    height: 400px;
+}
+
+.img4 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: plum;
+}
+
+.img4:hover {
+    width: 350px;
+    height: 300px;
+}
+
+.img5 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: plum;
+}
+
+.img5:hover {
+    width: 350px;
+    height: 250px;
+}
+
+.img6 {
+    border-style: solid;
+    border-width: 3px;
+    border-color:plum;
+}
+
+.img6:hover {
+    width: 350px;
+    height: 300px;
+}
+
+.img7 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: plum;
+}
+
+.img7:hover {
+    width: 350px;
+    height: 300px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 40%;
+}
+
+table {
+    font-size: large;
+    box-shadow: 5px 5px 10px grey;
+    border-style:solid;
+    border-color: plum;
+    border-width: 10%;
+    line-height: 40px;
+}
+
+p {
+    background-color:rgb(243, 218, 239);
+    box-shadow: 5px 5px 10px grey;
+}
+
